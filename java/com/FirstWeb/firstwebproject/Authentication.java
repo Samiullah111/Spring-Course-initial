@@ -11,6 +11,7 @@ public class Authentication {
     public boolean authemticate(String name, String password){
 
         boolean Vname= name.equalsIgnoreCase("sami");
+
         boolean Vpass=password.equalsIgnoreCase("1234");
         return Vname && Vpass;
     }
